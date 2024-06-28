@@ -13,6 +13,8 @@
 		3A9A2A942C2CC3B000DDF8BC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3A9A2A932C2CC3B000DDF8BC /* Base */; };
 		3A9A2A962C2CC3B100DDF8BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9A2A952C2CC3B100DDF8BC /* Assets.xcassets */; };
 		3A9A2A992C2CC3B100DDF8BC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3A9A2A982C2CC3B100DDF8BC /* Base */; };
+		3A9A2AA22C2CDAC000DDF8BC /* LoanLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9A2AA12C2CDAC000DDF8BC /* LoanLogic.swift */; };
+		3A9A2AA72C2CE07F00DDF8BC /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9A2AA62C2CE07F00DDF8BC /* CurrencyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3A9A2A952C2CC3B100DDF8BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A9A2A982C2CC3B100DDF8BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A9A2A9A2C2CC3B100DDF8BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A9A2AA12C2CDAC000DDF8BC /* LoanLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanLogic.swift; sourceTree = "<group>"; };
+		3A9A2AA62C2CE07F00DDF8BC /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +62,31 @@
 			children = (
 				3A9A2A8C2C2CC3B000DDF8BC /* AppDelegate.swift */,
 				3A9A2A8E2C2CC3B000DDF8BC /* SceneDelegate.swift */,
-				3A9A2A902C2CC3B000DDF8BC /* ViewController.swift */,
+				3A9A2AA02C2CDA3200DDF8BC /* Model */,
+				3A9A2AA32C2CDBF200DDF8BC /* View */,
 				3A9A2A922C2CC3B000DDF8BC /* Main.storyboard */,
 				3A9A2A952C2CC3B100DDF8BC /* Assets.xcassets */,
 				3A9A2A972C2CC3B100DDF8BC /* LaunchScreen.storyboard */,
 				3A9A2A9A2C2CC3B100DDF8BC /* Info.plist */,
 			);
 			path = Mod_6_Original;
+			sourceTree = "<group>";
+		};
+		3A9A2AA02C2CDA3200DDF8BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A9A2AA12C2CDAC000DDF8BC /* LoanLogic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A9A2AA32C2CDBF200DDF8BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A9A2A902C2CC3B000DDF8BC /* ViewController.swift */,
+				3A9A2AA62C2CE07F00DDF8BC /* CurrencyView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A9A2A912C2CC3B000DDF8BC /* ViewController.swift in Sources */,
+				3A9A2AA72C2CE07F00DDF8BC /* CurrencyView.swift in Sources */,
 				3A9A2A8D2C2CC3B000DDF8BC /* AppDelegate.swift in Sources */,
+				3A9A2AA22C2CDAC000DDF8BC /* LoanLogic.swift in Sources */,
 				3A9A2A8F2C2CC3B000DDF8BC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
