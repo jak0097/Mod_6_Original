@@ -79,7 +79,7 @@ struct ConverterLogic {
         
         if euroConversion {
             USD = Int(USDString) ?? 0
-            euroReturn = Double(USD) * 0.95
+            euroReturn = Double(USD) * 0.93
             euroReturn = round(euroReturn * 100) / 100.0
         } else {
             euroReturn = -1
@@ -88,7 +88,7 @@ struct ConverterLogic {
         
         if yenConversion {
             USD = Int(USDString) ?? 0
-            yenReturn = Double(USD) * 100
+            yenReturn = Double(USD) * 160
             yenReturn = round(yenReturn * 100) / 100.0
         } else {
             yenReturn = -1
@@ -97,7 +97,7 @@ struct ConverterLogic {
         
         if kroneConversion {
             USD = Int(USDString) ?? 0
-            kroneReturn = Double(USD) * 10
+            kroneReturn = Double(USD) * 10.65
             kroneReturn = round(kroneReturn * 100) / 100.0
         } else {
             kroneReturn = -1
@@ -106,7 +106,7 @@ struct ConverterLogic {
         
         if canadianConversion {
             USD = Int(USDString) ?? 0
-            canadianReturn = Double(USD) * 1.2
+            canadianReturn = Double(USD) * 1.37
             canadianReturn = round(canadianReturn * 100) / 100.0
         } else {
             canadianReturn = -1
